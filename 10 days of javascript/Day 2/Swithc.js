@@ -25,9 +25,9 @@ function readLine() {
 function getLetter(s) {
     let letter;
     // Write your code here
-    var set1 = new Set("a","e","i","o","u");
-    var set2 = new Set("b","c","d","f","g")
-    var set3 = new Set("h","j","k","l","m")
+    var set1 = new Set("aeiou");
+    var set2 = new Set("bcdfg");
+    var set3 = new Set("hjklm");
     var ch = s[0];
     var num = 0;
     if(set1.has(ch))
@@ -67,7 +67,6 @@ function getLetter(s) {
     
     return letter;
 }
-
 
 function main() {
     const s = readLine();
