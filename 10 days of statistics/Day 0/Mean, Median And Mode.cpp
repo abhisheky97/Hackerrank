@@ -26,7 +26,7 @@ int main() {
         median=(array[n/2]+array[(n/2)-1])/2.0;
     }
     else {
-        int mid = ceil(n/2.0);
+        int mid = floor(n/2.0);
         median=(array[mid])/2.0;
     }
     cout << median << "\n";
